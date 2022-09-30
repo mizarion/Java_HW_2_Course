@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="628.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="628.0">
+            <menus>
+                <Menu mnemonicParsing="false" text="Файл">
+                    <items>
+                        <MenuItem fx:id="menu_addContact" mnemonicParsing="false" text="Добавить новый контакт" />
+                        <MenuItem fx:id="menu_editContact" mnemonicParsing="false" text="Редактирование" />
+                        <MenuItem fx:id="menu_deleteContact" mnemonicParsing="false" text="Удалить контакт" />
+                        <MenuItem fx:id="menu_exit" mnemonicParsing="false" text="Выход" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Настройки">
+                    <items>
+                        <MenuItem fx:id="menuItem_import" mnemonicParsing="false" text="Импортировать" />
+                        <MenuItem fx:id="menuItem_export" mnemonicParsing="false" text="Экспортировать" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Справка">
+                    <items>
+                        <MenuItem fx:id="menuItem_info" mnemonicParsing="false" text="Об авторе" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+        <Button fx:id="button_edit" layoutX="100.0" layoutY="368.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="100.0" text="Редактировать" />
+        <Button fx:id="button_add" layoutX="200.0" layoutY="368.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="100.0" text="Добавить" />
+        <Button fx:id="button_delete" layoutY="368.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="100.0" text="Удалить" />
+        <Button fx:id="button_find" layoutX="526.0" layoutY="368.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="100.0" text="Поиск" />
+        <TextField fx:id="textField_search" layoutX="304.0" layoutY="372.0" prefHeight="25.0" prefWidth="219.0" />
+        <TableView fx:id="tableView_table" editable="true" layoutX="3.0" layoutY="27.0" prefHeight="336.0" prefWidth="622.0">
+            <columns>
+                <TableColumn fx:id="tableColumn_surname" prefWidth="67.0" text="Surname" />
+                <TableColumn fx:id="tableColumn_name" prefWidth="68.0" text="Name" />
+                <TableColumn fx:id="tableColumn_name11" prefWidth="88.0" text="Patronymic" />
+                <TableColumn fx:id="tableColumn_name1" prefWidth="101.0" text="Mobile phone" />
+                <TableColumn fx:id="tableColumn_name12" prefWidth="83.0" text="Home phone" />
+                <TableColumn fx:id="tableColumn_name121" prefWidth="62.0" text="Adress" />
+                <TableColumn fx:id="tableColumn_name1211" prefWidth="62.0" text="Birthday" />
+                <TableColumn fx:id="tableColumn_name12111" prefWidth="96.0" text="Note" />
+            </columns>
+        </TableView>
+    </children>
+</Pane>

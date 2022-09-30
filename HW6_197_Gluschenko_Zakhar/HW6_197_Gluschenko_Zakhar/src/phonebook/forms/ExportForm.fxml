@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane prefHeight="175.0" prefWidth="356.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="textField_path" alignment="CENTER" layoutX="18.0" layoutY="60.0" prefHeight="38.0" prefWidth="321.0" promptText="Путь до файла">
+         <font>
+            <Font size="16.0" />
+         </font></TextField>
+      <Button fx:id="button_ok" layoutX="239.0" layoutY="129.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="100.0" text="Ок">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Button fx:id="button_cancel" layoutX="18.0" layoutY="129.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="100.0" text="Отмена">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="75.0" layoutY="14.0" text="Экспорт контактов">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

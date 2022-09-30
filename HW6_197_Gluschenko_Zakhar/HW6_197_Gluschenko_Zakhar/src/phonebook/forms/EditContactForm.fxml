@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="407.0" prefWidth="281.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="button_cancel" layoutX="150.0" layoutY="360.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="120.0" text="Отменить" />
+      <TextField fx:id="textField_surname" alignment="CENTER" layoutX="50.0" layoutY="60.0" prefHeight="25.0" prefWidth="180.0" promptText="Фамилия" />
+      <TextField fx:id="textField_name" alignment="CENTER" layoutX="50.0" layoutY="90.0" prefHeight="25.0" prefWidth="180.0" promptText="Имя" />
+      <Label layoutX="23.0" layoutY="14.0" text="Редактирование контакта" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textField_patronymic" alignment="CENTER" layoutX="50.0" layoutY="120.0" prefHeight="25.0" prefWidth="180.0" promptText="Отчество" />
+      <TextField fx:id="textField_phoneNumber" alignment="CENTER" layoutX="50.0" layoutY="150.0" prefHeight="25.0" prefWidth="180.0" promptText="Мобильный телефон" />
+      <TextField fx:id="textField_address" alignment="CENTER" layoutX="50.0" layoutY="210.0" prefHeight="25.0" prefWidth="180.0" promptText="Адрес" />
+      <Button fx:id="button_apply" layoutX="10.0" layoutY="360.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="120.0" text="Применить" />
+      <TextField fx:id="textField_phoneNumber2" alignment="CENTER" layoutX="50.0" layoutY="180.0" prefHeight="25.0" prefWidth="180.0" promptText="Домашний телефон" />
+      <TextField fx:id="textField_birthday" alignment="CENTER" layoutX="50.0" layoutY="240.0" prefHeight="25.0" prefWidth="180.0" promptText="День рождения" />
+      <TextField fx:id="textField_note" alignment="CENTER" layoutX="30.0" layoutY="270.0" prefHeight="80.0" prefWidth="220.0" promptText="Заметки" />
+   </children>
+</Pane>

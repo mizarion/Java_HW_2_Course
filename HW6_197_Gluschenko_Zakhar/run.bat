@@ -1,0 +1,1 @@
+java --module-path C:\distrib\JavaFX\javafx-sdk-16\lib --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.web -jar HW6_197_Gluschenko_Zakhar.jar
